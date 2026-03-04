@@ -14,8 +14,8 @@
 
 | Field            | Value                                      |
 |------------------|--------------------------------------------|
-| **Project Name** | [CLIENT NAME] — Crypto-Agility Pilot       |
-| **Project ID**   | [e.g. CNS-2025-001]                        |
+| **Project Name** | [CLIENT NAME] — Product X Pilot       |
+| **Project ID**   | [e.g. ID-2026-001]                        |
 | **Version**      | v1.0                                       |
 | **Status**       | Draft / Under Review / Approved            |
 | **Created by**   | [Project Manager Name]                     |
@@ -35,7 +35,7 @@
 -->
 
 [CLIENT NAME] has initiated a Crypto-Agility Pilot Project in collaboration
-with CryptoNext Security (CNS) to experiment with post-quantum cryptography
+with X Company to experiment with post-quantum cryptography
 (PQC) management within its strategic products and services roadmap.
 
 The project responds to the growing threat of quantum computing, which is
@@ -65,8 +65,8 @@ to update cryptographic schemes without disrupting existing systems.
   Goals answer "what do we want to achieve?" — not how.
 -->
 
-1. Experiment with and validate CryptoNext's Crypto-Agility framework
-   (CAPTAIN + SENTINEL) in [CLIENT NAME]'s technical environment.
+1. Experiment with and validate Company X's Crypto-Agility framework
+   in [CLIENT NAME]'s technical environment.
 2. Demonstrate quantum-safe key exchange and digital signatures across
    REST and gRPC APIs using NIST-standardised PQC algorithms.
 3. Assess the impact of PQC migration on [CLIENT NAME]'s existing
@@ -86,17 +86,13 @@ to update cryptographic schemes without disrupting existing systems.
   Be precise — vague scope is the most common cause of project problems.
 -->
 
-- Delivery of CryptoNext software modules: SENTINEL, CAPTAIN, COMPASS
-  Analytics, REST API Server, gRPC API Server, PQC SOFT-HSM, SOFT and
-  PKCS11 Java Providers.
+- Delivery of Company software modules...
 - 5 pilot phases as defined in the contract:
-  - **Phase 1** — Signature Mock-Up (KeyGen, Sign, Verify)
-  - **Phase 2** — REST API + full crypto services (signature + encryption)
-  - **Phase 3** — gRPC API protocol testing
-  - **Phase 4** — CAPTAIN Crypto-Agility Management Center integration
-  - **Phase 5** *(optional)* — COMPASS Analytics discovery platform
-- 3 workshops: Crypto-Agility Fundamentals, Test Plan Scoping,
-  Results Analysis.
+  - **Phase 1** — 
+  - **Phase 2** — 
+  - **Phase 3** — 
+  - **Phase 4** — 
+- 3 workshops: 
 - Monthly Technical Coordination Meetings (TCMs) throughout the project.
 - Technical support with 48-hour acknowledgement SLA.
 - Final results analysis report and project closure debriefing.
@@ -108,7 +104,7 @@ to update cryptographic schemes without disrupting existing systems.
   This protects both parties from scope creep.
 -->
 
-- Production deployment of any CryptoNext software.
+- Production deployment of any Company X software.
 - Integration with [CLIENT NAME]'s live systems or production infrastructure.
 - Migration of existing certificates or cryptographic keys.
 - Security audit or penetration testing of [CLIENT NAME]'s environment.
@@ -130,7 +126,7 @@ to update cryptographic schemes without disrupting existing systems.
 |---|-------------------|-------------|--------|
 | 1 | All contracted SW deliverables accepted by client | Signed acceptance per delivery batch | 100% accepted |
 | 2 | Phase 1–3 tests completed and results documented | Test report covering all defined crypto services | All phases signed off |
-| 3 | Phase 4 CAPTAIN integration demonstrated | Successful crypto-policy distribution to test application | Functional demo |
+| 3 | Phase 4 Product Y integration demonstrated | Successful crypto-policy distribution to test application | Functional demo |
 | 4 | Results Analysis Report produced | Report delivered and reviewed in WS #3 | Delivered by T4 |
 | 5 | Project delivered on time | All Tn milestones met or rescheduled by Steering Committee only | ≤ 2 milestone delays |
 | 6 | Client satisfaction | Informal feedback or satisfaction check at closure | Positive assessment |
@@ -189,7 +185,7 @@ to update cryptographic schemes without disrupting existing systems.
 - **Technology**: Client environment must run Linux RHEL 9.4 / Intel (AVX2).
   No exceptions to the Docker delivery format.
 - **Resources**: Client must provide a dedicated SPOC and technical engineer
-  throughout the project. CNS cannot proceed without client-side availability.
+  throughout the project.  cannot proceed without client-side availability.
 - **Legal**: All CryptoNext software must be erased from client systems
   at project closure, per contractual obligation.
 - **Confidentiality**: All project materials are Restricted Use — Confidential.
@@ -211,9 +207,9 @@ to update cryptographic schemes without disrupting existing systems.
 | [Name] | [CLIENT NAME] | Project Sponsor | Final approval authority, escalation point |
 | [Name] | [CLIENT NAME] | SPOC / Project Lead | Day-to-day coordination, client-side decisions |
 | [Name] | [CLIENT NAME] | Technical Lead | Test environment, infrastructure, technical validation |
-| [Project Manager] | CryptoNext Security | Project Manager | Delivery management, meeting facilitation, reporting |
-| [Tech Director] | CryptoNext Security | Technical Director | Architecture, workshops, technical support |
-| [CRO] | CryptoNext Security | Executive Sponsor | Commercial relationship, escalation |
+| [Project Manager] | Company X | Project Manager | Delivery management, meeting facilitation, reporting |
+| [Tech Director] | Company X | Technical Director | Architecture, workshops, technical support |
+| [CRO] | Company X  | Executive Sponsor | Commercial relationship, escalation |
 
 📎 **Full stakeholder details**: see
 [`/templates/stakeholder-register.xlsx`](../templates/stakeholder-register.xlsx)
@@ -243,9 +239,9 @@ to update cryptographic schemes without disrupting existing systems.
 
 - Client must open port 443 on their test environment before Phase 2
   REST API testing can begin.
-- Phase 3 (gRPC) cannot start until Phase 2 results are validated
+- Phase 3  cannot start until Phase 2 results are validated
   and signed off by the client.
-- Phase 4 (CAPTAIN) requires Phase 3 infrastructure to be stable.
+- Phase 4  requires Phase 3 infrastructure to be stable.
 - Client must provide test data sets for signature validation
   testing before T2.
 
@@ -290,8 +286,8 @@ and governance structure described above.
 |------|------|-------------|------|--------------------------|
 | Project Sponsor (Client) | [Name] | [CLIENT NAME] | [DD/MM/YYYY] | _________________ |
 | Project Lead / SPOC (Client) | [Name] | [CLIENT NAME] | [DD/MM/YYYY] | _________________ |
-| Project Manager (CNS) | [Name] | CryptoNext Security | [DD/MM/YYYY] | _________________ |
-| Executive Sponsor (CNS) | [Name] | CryptoNext Security | [DD/MM/YYYY] | _________________ |
+| Project Manager (CNS) | [Name] | Company X  | [DD/MM/YYYY] | _________________ |
+| Executive Sponsor (CNS) | [Name] | Company X | [DD/MM/YYYY] | _________________ |
 
 ---
 
@@ -310,4 +306,4 @@ and governance structure described above.
 ---
 
 *This document is Restricted Use — Confidential.*
-*CryptoNext Security © [YEAR] — Client Onboarding System*
+*Company X  © [YEAR] — Client Onboarding System*
